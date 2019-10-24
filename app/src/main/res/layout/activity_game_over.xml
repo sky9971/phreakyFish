@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gameback"
+    tools:context=".GameOverActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_gameover"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_weight="1"
+            android:text="Game Over"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="60sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <Button
+            android:background="@drawable/roundbutton"
+            android:id="@+id/play_btn"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:text="play Again"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:textStyle="bold"
+            android:textAllCaps="false">
+
+        </Button>
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundbutton"
+            android:id="@+id/quit_btn"
+            android:gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="0dp"
+            android:text="Quit"
+            android:layout_gravity="center"
+            android:layout_weight=".5"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textAllCaps="false">
+
+        </Button>
+
+        <TextView
+            android:textColor="#000000"
+            android:text="Score"
+            android:id="@+id/tv_score_lvl2"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_weight=".5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>

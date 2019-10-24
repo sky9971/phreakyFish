@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back_inst_clr"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Instructions">
+
+
+
+    <TextView
+        android:id="@+id/tv_inst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:padding="5dp"
+        android:text="Fishing Freak...   Touch the screen to fly the fish and eat balls..."
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold">
+
+    </TextView>
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/roundbutton"
+        android:text="Back"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </Button>
+</LinearLayout>
